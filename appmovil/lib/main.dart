@@ -9,10 +9,10 @@ class appmovil extends StatelessWidget{
     return MaterialApp(
       home:Scaffold(
         appBar: AppBar(
-          title: Text("Hola Mundo, esto fue creado con Flutter y VSC"),
+          title: Text("Welcome to Flutter"),
         ),
         body:Center(
-          child: const Text("Realizado por: Karina Guadalupe Barragán Jara"),
+          child: const Text("Hello World, esto fue realizado por, Karina Guadalupe Barragán Jara"),
         ),
       ),
     );
